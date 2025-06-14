@@ -1,0 +1,41 @@
+window {
+  background-color: rgba(40, 42, 54, 0.90); /* Semi-transparent dark background */
+  border-radius: 16px;
+  border: 2px solid #8be9fd; /* Accent border, optional */
+  font-family: "Roboto Mono", "Noto Sans", sans-serif;
+  font-size: 18px;
+  color: #f8f8f2;
+}
+
+#entry {
+  padding: 0.5em 1em;
+  margin: 0.2em 0;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #f8f8f2;
+}
+
+#entry:selected {
+  background-color: #8be9fd;
+  color: #282a36;
+}
+
+image {
+  margin-right: 1em;
+  min-width: 32px;
+  min-height: 32px;
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 6px;
+}
+
+#input {
+  margin: 1em;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  background-color: rgba(68, 71, 90, 0.8);
+  color: #f8f8f2;
+  border: none;
+}
+
+

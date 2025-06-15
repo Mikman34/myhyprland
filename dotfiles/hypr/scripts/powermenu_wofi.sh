@@ -1,12 +1,12 @@
 #!/bin/bash
 
-entries=" Lock
- Suspend
-󰍃 Log out
-󰜉 Reboot
-󰍛 Reboot to UEFI
-󰑓 Hard reboot
-⏻ Shutdown"
+entries="  Lock
+  Suspend
+󰍃  Log out
+󰜉  Reboot
+󰍛  Reboot to UEFI
+󰑓  Hard reboot
+⏻  Shutdown"
 
 selected=$(echo -e "$entries" | wofi --dmenu --prompt="Power Menu:" --width=400 --height=450)
 

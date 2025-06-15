@@ -11,7 +11,7 @@
 
 
   ],
-  "modules-center": ["clock", "tray"],
+  "modules-center": ["clock", "custom/weather", "tray"],
   "modules-right": [
     "custom/fans",
     "backlight",
@@ -65,6 +65,14 @@
       },
     },
   },
+
+  "custom/weather": {
+  "exec": "~/.config/hypr/scripts/weather.sh",
+  "interval": 900,
+  "format": "<span color='#c4a7e7'></span> {}",
+  "tooltip": true
+},
+
 
   "tray": {
     "icon-size": 18,
@@ -136,7 +144,7 @@
   },
 
   "memory": {
-    //"format": "󰘚 {}%",
+    //"format": " {}%",
     "format": "<span color='#ffcb6b'>󰘚</span> {}%",
     "interval": 1,
   },

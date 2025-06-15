@@ -53,7 +53,15 @@ border: 2px solid #403d52;
 color: #FFFFFF;
 }
 
-
+/* Weather widget*/
+#custom-weather {
+  background-color: #191724;
+  border: 2px none #403d52;
+  margin: 4px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  color: #FFFFFF;
+}
 
 /* Workspaces container */
 #workspaces,

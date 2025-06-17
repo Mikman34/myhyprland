@@ -6,7 +6,7 @@ font-family: "JetBrainsMono Nerd Font", monospace;
 /* font-family: "Ubuntu", monospace; */
 font-weight: bold;
 /* font-weight: normal; */
-font-size: 16px;
+font-size: 15px;
 padding: 0;
 }
 
@@ -51,7 +51,7 @@ color: #FFFFFF;
 /* Launcher */
 #custom-launcher {
 background-color: #191724;
-border: 2px solid #403d52;
+border: 2px none #403d52;
 color: #FFFFFF;
 }
 

@@ -2,7 +2,7 @@
   "layer": "top",
   "reload_style_on_change": true,
   "modules-left": [
-    //"custom/launcher",
+    "custom/launcher",
     "hyprland/workspaces",
     "hyprland/window",
     //"hyprland/language",
@@ -24,9 +24,9 @@
   ],
 
  "custom/launcher":{
-      "format": " ",
-      "on-click": "fuzzel",
-      "on-click-right": "killall fuzzel"
+      "format": "<span color='#1793d1'> </span>",
+      "on-click": "/home/alex/.config/hypr/scripts/toggle_wofi.sh",
+      //"on-click-right": "killall fuzzel"
     },
 
   "hyprland/workspaces": {

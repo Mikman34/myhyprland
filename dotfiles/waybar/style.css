@@ -3,8 +3,10 @@ border: none;
 border-radius: 9999px; /* pill-shaped */
 min-height: 0;
 font-family: "JetBrainsMono Nerd Font", monospace;
+/* font-family: "Ubuntu", monospace; */
 font-weight: bold;
-font-size: 14px;
+/* font-weight: normal; */
+font-size: 16px;
 padding: 0;
 }
 

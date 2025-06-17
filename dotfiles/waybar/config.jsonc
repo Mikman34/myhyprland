@@ -66,12 +66,12 @@
     },
   },
 
-  "custom/weather": {
-  "exec": "~/.config/hypr/scripts/weather.sh",
-  "interval": 900,
-  "format": "<span color='#c4a7e7'></span> {}",
-  "tooltip": true
-},
+// "custom/weather": {
+// "exec": "~/.config/hypr/scripts/weather.sh",
+// "interval": 900,
+//  "format": "<span color='#c4a7e7'></span> {}",
+//  "tooltip": true
+//},
 
 
   "tray": {

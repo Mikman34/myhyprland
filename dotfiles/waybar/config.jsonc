@@ -2,7 +2,7 @@
   "layer": "top",
   "reload_style_on_change": true,
   "modules-left": [
-    "custom/launcher",
+    //"custom/launcher",
     "hyprland/workspaces",
     "hyprland/window",
     //"hyprland/language",
@@ -131,14 +131,14 @@
 
   "cpu": {
     //"format": "󰍛 {usage}%",
-    "format": "<span color='#c4a7e7'>󰍛</span> {usage}%",
+    "format": "<span color='#ed8796'>󰍛</span> {usage}%",
     "tooltip": true,
     "interval": 1,
   },
 
   "custom/gpu": {
   "exec": "/home/alex/.config/hypr/scripts/gpucheck.sh",
-  "format": "<span color='#a7c080'>󰍛</span> {}",
+  "format": "<span color='#a6da95'>󰍛</span> {}",
   "return-type": "json",
   "interval": 2
   },

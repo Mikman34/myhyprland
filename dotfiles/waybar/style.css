@@ -149,7 +149,7 @@ border: 2px solid #eb6f92;
 
 #custom-gpu {
   background-color: #191724;
-  border: 2px none #403d52;
+ /* border: 3px solid #313244; */
   margin: 4px;
   padding: 4px 10px;
   border-radius: 9999px;

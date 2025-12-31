@@ -1,0 +1,13 @@
+# Created by newuser for 5.9
+#
+#
+#
+# This will run fastfetch at the beginning
+fastfetch
+#ALIASES
+alias update='sudo dnf upgrade'
+#alias install='sudo dnf install'
+alias clr='clear'
+
+
+
